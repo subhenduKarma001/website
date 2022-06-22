@@ -25,7 +25,6 @@ const Hero = () => {
               "i'm a web developer.",
               "i love solving problems.",
               "i'm a competitive programmer",
-              "i love mathematics",
               "i love javascript and C++",
               "i am learning typescript rn.",
             ],

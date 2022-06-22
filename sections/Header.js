@@ -17,7 +17,6 @@ const Header = () => {
     { index: 3, label: "Posts", href: "/posts" },
     { index: 4, label: "Tweets", href: "/tweets" },
     { index: 5, label: "Photos", href: "/photos" },
-    { index: 6, label: "About", href: "/about" },
   ]
 
   const themeChanger = () => {
