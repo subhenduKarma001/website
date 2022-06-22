@@ -1,5 +1,6 @@
 import Button from "../components/Button"
 import Hover from "../components/Hover"
+import Typewriter from "typewriter-effect"
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
         )<span className="text-light_main dark:text-dark_main">;</span>
       </span>
       <h3 className="text-xl md:text-4xl my-3">
-        {/* <Typewriter
+        <Typewriter
           options={{
             strings: [
               "i'm a web developer.",
@@ -31,7 +32,7 @@ const Hero = () => {
             autoStart: true,
             loop: true,
           }}
-        /> */}
+        />
       </h3>
       <p className="md:text-xl text-light_text dark:text-dark_text mb-8">
         Lorem ipsum <Hover href="#">dolor</Hover> sit amet consectetur
