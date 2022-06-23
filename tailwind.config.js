@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         // main color for light background
-        light_bg: "#ffffff",
-        light_main: "#00A5E0",
+        light_bg: "#F7FFF7",
+        light_main: "#0267C1",
         light_text: "#000000",
 
         // main color for dark background
@@ -19,8 +19,8 @@ module.exports = {
         dark_text: "#ffffff",
       },
       boxShadow: {
-        custom: "inset 0 0 0 0 #00A5E0",
-        custom2: "inset 100px 0 0 0 #00A5E0",
+        custom: "inset 0 0 0 0 #0267C1",
+        custom2: "inset 100px 0 0 0 #0267C1",
 
         custom_dark: "inset 0 0 0 0 #4F9D69",
         custom_dark2: "inset 100px 0 0 0 #4F9D69",
