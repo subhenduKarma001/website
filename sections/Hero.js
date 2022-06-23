@@ -12,7 +12,7 @@ const Hero = () => {
             console.
             <span className="text-light_main dark:text-dark_main">log</span>(
           </span>
-          <h1 className="text-4xl md:text-4xl font-bold">
+          <h1 className="text-3xl md:text-4xl font-bold">
             <span className="text-light_main dark:text-dark_main">&quot;</span>
             Subhendu Karmakar.
             <span className="text-light_main dark:text-dark_main">&quot;</span>
@@ -38,18 +38,18 @@ const Hero = () => {
           </h3>
           <div className="md:text-lg text-light_text dark:text-dark_text mb-8">
             <p>
-              Hello world! I'm Maggie, a high school junior. I enjoy coding
-              competitively, building useless but fun things and making
-              (generative) art!
+              Hello world! I'm Subhendu, I enjoy coding competitively, building
+              useless but fun things and making (generative) art !
             </p>
             <p>
-              I'm an executive at the Competitive Programming Initiative,
-              helping promote competitive programming through resources such as
-              the USACO Guide.
+              I'm currently a 3rd year undergrad at Indira Gandhi Instititue of
+              technology, Sarang, pursuing my bachelor's degree in computer
+              science.
             </p>
             <p>
-              Check out ~/projects or my GitHub (@maggie-j-liu) to see more cool
-              projects!
+              Check out <Hover href="/projects">projects</Hover> or my
+              <Hover href="https://github.com/subhenduKarma001"> Github </Hover>
+              to see more cool projects!
             </p>
           </div>
         </div>

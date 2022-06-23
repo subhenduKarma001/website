@@ -8,7 +8,9 @@ const Footer = () => {
         copyright issues
         <span className="hidden md:inline">
           , feel free to copy if you want. source code on{" "}
-          <Hover href="https://www.google.com">Github</Hover>
+          <Hover href="https://github.com/subhenduKarma001/website">
+            Github
+          </Hover>
         </span>
       </span>
     </footer>
