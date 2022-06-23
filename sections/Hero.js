@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Button from "../components/Button"
 import Hover from "../components/Hover"
 import Typewriter from "typewriter-effect"
@@ -60,16 +61,18 @@ const Hero = () => {
       </div>
       <div className="flex flex-col md:inline-block space-y-4 md:space-x-4">
         <Button className="hover:animate-pulse transition-all bg-light_main text-white dark:bg-dark_main rounded-md">
-          Email
+          <Link href="mailto:subhendukarmakar61@gmail.com">Email</Link>
         </Button>
         <Button className="hover:animate-pulse transition-all bg-light_main text-white dark:bg-dark_main rounded-md">
-          Github
+          <Link href="https://github.com/subhendukarma001">Github</Link>
         </Button>
         <Button className="hover:animate-pulse transition-all bg-light_main text-white dark:bg-dark_main rounded-md">
-          Linkedin
+          <Link href="https://www.linkedin.com/in/subhendu-karmakar-ba8914190/">
+            Linkedin
+          </Link>
         </Button>
         <Button className="hover:animate-pulse transition-all bg-light_main text-white dark:bg-dark_main rounded-md">
-          Twitter
+          <Link href="https://twitter.com/SubhenduKarma">Twitter</Link>
         </Button>
       </div>
     </section>
