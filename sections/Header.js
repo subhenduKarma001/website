@@ -1,7 +1,6 @@
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Button from "../components/Button"
 import { SunIcon, MoonIcon } from "../components/Icons"
 
 const Header = () => {
@@ -26,14 +25,20 @@ const Header = () => {
 
     if (currTheme === "dark") {
       return (
-        <div className="rounded-full cursor-pointer p-2 md:hover:ring-2 md:hover:ring-light_main md:dark:hover:ring-dark_main md:hover:bg-light_bg md:dark:hover:bg-dark_bg md:hover:text-light_main md:dark:hover:text-dark_main" onClick={() => setTheme("light")}>
+        <div
+          className="rounded-full cursor-pointer p-2 md:hover:ring-2 md:hover:ring-light_main md:dark:hover:ring-dark_main md:hover:bg-light_bg md:dark:hover:bg-dark_bg md:hover:text-light_main md:dark:hover:text-dark_main"
+          onClick={() => setTheme("light")}
+        >
           {/* sun icon */}
           <SunIcon />
         </div>
       )
     } else {
       return (
-        <div className="rounded-full cursor-pointer p-2 md:hover:ring-2 md:hover:ring-light_main md:dark:hover:ring-dark_main md:hover:bg-light_bg md:dark:hover:bg-dark_bg md:hover:text-light_main md:dark:hover:text-dark_main" onClick={() => setTheme("dark")}>
+        <div
+          className="rounded-full cursor-pointer p-2 md:hover:ring-2 md:hover:ring-light_main md:dark:hover:ring-dark_main md:hover:bg-light_bg md:dark:hover:bg-dark_bg md:hover:text-light_main md:dark:hover:text-dark_main"
+          onClick={() => setTheme("dark")}
+        >
           {/* moon icon */}
           <MoonIcon />
         </div>

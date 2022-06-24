@@ -1,21 +1,24 @@
 import Head from "next/head"
 import Header from "../sections/Header"
 import Footer from "../sections/Footer"
+import Footer2 from "../sections/Footer2"
+import { useState, useEffect } from "react"
 
 const Layout = ({ children }) => {
+  const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    const time = setTimeout(() => {
+      setVisible(false)
+    }, 5000)
+  }, [])
+
   return (
-    <>
-      <Head>
-        <title>Subhendu Karmakar </title>
-        <meta name="description" content="My Personal Website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-grow">{children}</main>
-        <Footer />
-      </div>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow">{children}</main>
+      {visible ? <Footer /> : <Footer2 />}
+    </div>
   )
 }
 

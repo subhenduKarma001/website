@@ -1,8 +1,8 @@
 import Hover from "../components/Hover"
 
-const Footer = () => {
+const Footer = ({}) => {
   return (
-    <footer className="py-2 text-center text-sm text-light_text dark:text-dark_text">
+    <footer className="py-2 text-center text-xs text-light_text dark:text-dark_text">
       <span>
         No <span className="text-light_main dark:text-dark_main">&copy;</span>{" "}
         copyright issues
